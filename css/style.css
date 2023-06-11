@@ -1,0 +1,286 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+header{
+    height: 100vh;
+    background: url("../img/asparagus-2169305_1280.jpg")center center/cover no-repeat;
+   
+
+}
+
+
+
+#navbar img{
+    width: 80px;
+    margin-left: 100px;
+}
+
+#navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+ /* background-color: rgb(197, 36, 36); */
+    
+}
+
+ul{
+    list-style-type: none;
+}
+
+a{
+    text-decoration: none;
+}
+
+#navbar ul{
+    display: flex;
+    margin-right: 100px;
+}
+
+#navbar ul li a{
+    padding: 15px 20px;
+    font-weight: 600;
+    color: white;
+}
+
+#navbar ul li a:hover{
+border-bottom: 2px solid #ebb031;
+}
+
+
+header .content{
+    display: flex;
+    flex-direction: column;
+     justify-content: center;
+     align-items: center;
+    
+     height: 75%;
+     
+} 
+
+header .content h1{
+    font-size: 40px;
+    color: white;
+}
+
+header .content p{
+    margin: 20PX 0 40px;
+    color: white;
+}
+
+.primary-text{
+    color: #f3a90a;
+}
+
+.btn{
+    display: inline-block;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 15px;
+}
+
+.btn-primary{
+    color: white;
+    border: 1px solid white;
+}
+
+.btn-primary:hover{
+    background: #ebab23;
+}
+
+.container{
+    /* background-color: red; */
+    max-width: 1100px;
+    margin: auto;
+
+}
+
+#about{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: white;
+}
+
+#about .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#about h2{
+    font-size: 40px;
+    color: #383848;
+    margin-bottom: 20px;
+}
+
+#about .title p{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+#about .about-content{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* #about .about-content img{
+    width: 450px;
+} */
+
+#about .about-content p{
+    color: #9a9a9a;
+    margin-right: 7rem;
+    font-weight: 500;
+    line-height: 1.6;
+}
+
+.btn-secondary{
+    color: #fff;
+    background: #383848;
+    margin-top: 2rem;
+}
+
+.btn-secondary:hover{
+    background: #ebab23;
+}
+
+#offers{
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+     background: url("../img/pexels-philippe-donn-1169754.jpg") center center/cover fixed; 
+}
+
+#offers .title{
+    text-align: center;
+    margin-bottom: 2rem;
+}
+
+#offers h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#about h2{
+    color: #383848;
+}
+
+#offers h2{
+    color: #ebab23;
+}
+
+#offers .title p{
+    color: #fff;
+    font-weight: 500;
+}
+
+#offers .offers-items{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      color: #fff;
+}
+
+ /* #offers .offers-items img{
+    width: 200px;
+}  */
+
+#offers .offers-items h3{
+    font-size: 25px;
+    margin: 15px 0;
+} 
+
+#offers .offers-items p{
+    font-size: 14px;
+    padding: 0 20px;
+    font-weight: 300;
+    margin-bottom: 15px;
+}
+
+#offers .offers-items span{
+    font-size: 18px;
+    font-weight: 600;
+    margin-left: 5px;
+}
+
+
+#menu{
+    background: #f4f4f4;
+    padding: 5rem 0;
+}
+
+#menu .title{
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+#menu h2{
+    font-size: 40px;
+    margin-bottom: 20px;
+    color: #383848;
+}
+
+#menu .title p{
+    font-size: 14px;
+    color: #9a9a9a;
+    font-weight: 600;
+}
+
+#menu .menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#menu .menu-items.menu-items img{
+      width: 80px;  
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+#menu .menu-items .menu-item{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 40px;
+}
+
+#menu .menu-items .menu-item h3{
+    color: #383848;
+    border-bottom: 1px dashed #c2bdbd;
+    padding-bottom: 10px;
+    position: relative;
+}
+
+#menu .menu-items .menu-item span{
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#menu .menu-items .menu-item p{
+    margin-top: 10px;
+}
+
+#menu .btn{
+    background: #e9ae2f;
+    color: #fff;
+    display: block;
+    margin: 20px auto 0;
+    cursor: pointer;
+}
+
+#menu .btn:hover{
+    background: #383848;
+}
+
+
+
+
+
+    
